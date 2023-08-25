@@ -1,0 +1,50 @@
+CRITICAL - 2023-08-19 19:54:15 --> There is no data to update.
+#0 C:\Portable\xampp7\htdocs\api_ci4\system\Model.php(809): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\Portable\xampp7\htdocs\api_ci4\app\Controllers\Products.php(77): CodeIgniter\Model->update(Array, NULL)
+#2 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(914): App\Controllers\Products->update('14')
+#3 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Portable\xampp7\htdocs\api_ci4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Portable\xampp7\htdocs\api_ci4\system\Commands\Server\rewrite.php(34): require_once('C:\\Portable\\xam...')
+#7 {main}
+CRITICAL - 2023-08-19 19:58:54 --> There is no data to insert.
+#0 C:\Portable\xampp7\htdocs\api_ci4\system\Model.php(679): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Portable\xampp7\htdocs\api_ci4\app\Controllers\Products.php(42): CodeIgniter\Model->insert(NULL)
+#2 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(914): App\Controllers\Products->create()
+#3 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Portable\xampp7\htdocs\api_ci4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Portable\xampp7\htdocs\api_ci4\system\Commands\Server\rewrite.php(34): require_once('C:\\Portable\\xam...')
+#7 {main}
+CRITICAL - 2023-08-19 20:00:07 --> There is no data to insert.
+#0 C:\Portable\xampp7\htdocs\api_ci4\system\Model.php(679): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Portable\xampp7\htdocs\api_ci4\app\Controllers\Products.php(42): CodeIgniter\Model->insert(NULL)
+#2 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(914): App\Controllers\Products->create()
+#3 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Portable\xampp7\htdocs\api_ci4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Portable\xampp7\htdocs\api_ci4\system\Commands\Server\rewrite.php(34): require_once('C:\\Portable\\xam...')
+#7 {main}
+CRITICAL - 2023-08-19 20:00:41 --> There is no data to insert.
+#0 C:\Portable\xampp7\htdocs\api_ci4\system\Model.php(679): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\Portable\xampp7\htdocs\api_ci4\app\Controllers\Products.php(42): CodeIgniter\Model->insert(NULL)
+#2 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(914): App\Controllers\Products->create()
+#3 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Portable\xampp7\htdocs\api_ci4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\Portable\xampp7\htdocs\api_ci4\system\Commands\Server\rewrite.php(34): require_once('C:\\Portable\\xam...')
+#7 {main}
+CRITICAL - 2023-08-19 20:48:14 --> Call to a member function isValid() on null
+#0 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(914): App\Controllers\Users->update(NULL)
+#1 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Portable\xampp7\htdocs\api_ci4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Portable\xampp7\htdocs\api_ci4\system\Commands\Server\rewrite.php(34): require_once('C:\\Portable\\xam...')
+#5 {main}
+CRITICAL - 2023-08-19 20:48:22 --> Call to a member function isValid() on null
+#0 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(914): App\Controllers\Users->update(NULL)
+#1 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\Portable\xampp7\htdocs\api_ci4\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Portable\xampp7\htdocs\api_ci4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\Portable\xampp7\htdocs\api_ci4\system\Commands\Server\rewrite.php(34): require_once('C:\\Portable\\xam...')
+#5 {main}

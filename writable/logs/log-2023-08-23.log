@@ -1,0 +1,11 @@
+CRITICAL - 2023-08-23 04:54:48 --> Undefined variable: title
+#0 C:\Portable\xampp7\htdocs\riomekahwisata_ci\app\Views\page\users\page_users.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Portable\\xam...', 4, Array)
+#1 C:\Portable\xampp7\htdocs\riomekahwisata_ci\system\View\View.php(246): include('C:\\Portable\\xam...')
+#2 C:\Portable\xampp7\htdocs\riomekahwisata_ci\system\Common.php(1087): CodeIgniter\View\View->render('page/users/page...', Array, true)
+#3 C:\Portable\xampp7\htdocs\riomekahwisata_ci\app\Controllers\User.php(21): view('page/users/page...', Array)
+#4 C:\Portable\xampp7\htdocs\riomekahwisata_ci\system\CodeIgniter.php(914): App\Controllers\User->index()
+#5 C:\Portable\xampp7\htdocs\riomekahwisata_ci\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\Portable\xampp7\htdocs\riomekahwisata_ci\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Portable\xampp7\htdocs\riomekahwisata_ci\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 C:\Portable\xampp7\htdocs\riomekahwisata_ci\system\Commands\Server\rewrite.php(34): require_once('C:\\Portable\\xam...')
+#9 {main}
